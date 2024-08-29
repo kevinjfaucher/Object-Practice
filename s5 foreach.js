@@ -20,6 +20,13 @@ Breakdown of forEach Syntax
         The syntax for the callback function is: function(parameter) { ... }.
 
 
+
+    forEach is not a callback function: It is a method that belongs to arrays in JavaScript.
+
+    forEach requires a callback function: When you call forEach, you need to provide a callback function as an argument. 
+    This callback function is the function that forEach will execute for each element in the array.
+
+
     Parameter:
         The parameter inside the callback function represents the current element of 
         the array during each iteration.
